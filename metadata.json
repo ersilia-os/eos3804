@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos3804",
+    "Slug": "chemprop-abaumannii",
+    "Status": "In progress",
+    "Title": "Acinetobacter activity prediction",
+    "Description": "This model is a Chemprop neural network trained with a growth inhibition dataset. Authors screened ~7,500 molecules for those that inhibited the growth of A. baumannii in vitro. They discovered abaucin, an antibacterial compound with narrow-spectrum activity against A. baumannii.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,10 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "A.baumannii"
+    ],
+    "Publication": "https://www.nature.com/articles/s41589-023-01349-8",
+    "Source Code": "https://github.com/GaryLiu152/chemprop_abaucin",
+    "License": "GPLv3"
 }
