@@ -17,6 +17,7 @@ dir_model= os.path.abspath(os.path.join(root,"..", "..","checkpoints", "final_mo
 # my model
 def my_model(smiles_list):
     
+    smiles_list_list= [[smiles] for smiles in smiles_list]  
     arguments = [
     '--test_path', '/dev/null',
     '--preds_path', '/dev/null',
@@ -26,7 +27,7 @@ def my_model(smiles_list):
     ]
 
     args = chemprop.args.PredictArgs().parse_args(arguments)
-    preds = chemprop.train.make_predictions(args=args, smiles=smiles_list)
+    preds = chemprop.train.make_predictions(args=args, smiles=smiles_list_list)
     return preds
 
 
@@ -34,8 +35,7 @@ def my_model(smiles_list):
 with open(input_file, "r") as f:
     reader = csv.reader(f)
     next(reader)  # skip header
-    smiles_list = [[r[1]] for r in reader]
-   
+    smiles_list = [r[0] for r in reader]
 
 # run model
 outputs = my_model(smiles_list)
