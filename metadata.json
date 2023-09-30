@@ -4,18 +4,18 @@
     "Status": "In progress",
     "Title": "Acinetobacter activity prediction",
     "Description": "This model is a Chemprop neural network trained with a growth inhibition dataset. Authors screened ~7,500 molecules for those that inhibited the growth of A. baumannii in vitro. They discovered abaucin, an antibacterial compound with narrow-spectrum activity against A. baumannii.",
-    "Mode": "",
-    "Task": [],
-    "Input": [],
-    "Input Shape": "",
-    "Output": [],
-    "Output Type": [],
-    "Output Shape": "",
-    "Interpretation": "",
+    "Mode": "Pretrained",
+    "Task": ["Classification"],
+    "Input": ["Compound"],
+    "Input Shape": "Single",
+    "Output": ["Score"],
+    "Output Type": ["Float"],
+    "Output Shape": "Single",
+    "Interpretation": "Probability of growth inhibition of the bacteria A. Baumannii. For a Threshold > 80% (0.8) they are considered active for inhibiting the growth of the A. baumannii. Note that a threshold of 0.2 was also considered in the training phase, allowing for the exploration of a broader set of compounds and which may need evaluation in later stages even if it does not reach 0.8, which is the threshold to reach. maximum effectiveness against A. Baumannii",
     "Tag": [
         "A.baumannii"
     ],
     "Publication": "https://www.nature.com/articles/s41589-023-01349-8",
     "Source Code": "https://github.com/GaryLiu152/chemprop_abaucin",
-    "License": "GPLv3"
+    "License": "GPL-3.0"
 }
