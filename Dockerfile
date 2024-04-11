@@ -11,6 +11,7 @@ RUN pip install pandas
 RUN pip install tensorboardX==2.0
 RUN pip install scipy>=1.4.1
 RUN pip install hyperopt
+RUN conda install -c conda-forge xorg-libxrender xorg-libxtst
 
 WORKDIR /repo
 COPY . /repo
