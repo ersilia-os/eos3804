@@ -3,21 +3,19 @@
     "Slug": "chemprop-abaumannii",
     "Status": "Ready",
     "Title": "Inhibition of Acinetobacter baumannii growth",
-    "Description": "This model is a Chemprop neural network trained with a growth inhibition dataset. Authors screened ~7,500 molecules for those that inhibited the growth of A. baumannii in vitro. They discovered abaucin, an antibacterial compound with narrow-spectrum activity against A. baumannii.\n",
+    "Description": "This model is a Chemprop neural network trained with a growth inhibition dataset. Authors screened ~7,500 molecules for those that inhibited the growth of A. baumannii in vitro. They discovered abaucin, an antibacterial compound with narrow-spectrum activity against A. baumannii.",
+    "Deployment": [
+        "Online",
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "Antimicrobial resistance"
-    ],
-    "Target Organism": [
-        "Acinetobacter baumannii"
-    ],
     "Output": [
         "Score"
     ],
@@ -28,21 +26,23 @@
         "A.baumannii",
         "Antimicrobial activity"
     ],
-    "Publication": "https://www.nature.com/articles/s41589-023-01349-8",
+    "Biomedical Area": [
+        "Antimicrobial resistance"
+    ],
+    "Target Organism": [
+        "Acinetobacter baumannii"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2023,
+    "Publication": "https://www.nature.com/articles/s41589-023-01349-8",
     "Source Code": "https://github.com/GaryLiu152/chemprop_abaucin",
     "License": "None",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2023-08-23",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3804.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3804",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3804.zip",
-    "Deployment": [
-        "Online",
-        "Local"
     ]
 }
