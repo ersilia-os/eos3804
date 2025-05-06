@@ -41,7 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `30`
 - **Environment Size (Mb):** `3940`
+- **Image Size (Mb):** `3923.81`
 
+**Computational Performance (seconds):**
+- 4 inputs: `44.95`
+- 20 inputs: `38.85`
+- 100 inputs: `54.39`
 
 ### References
 - **Source Code**: [https://github.com/GaryLiu152/chemprop_abaucin](https://github.com/GaryLiu152/chemprop_abaucin)
