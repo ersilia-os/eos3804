@@ -9,7 +9,7 @@ RUN pip install scikit-learn==1.3.2
 RUN pip install torch==1.13
 RUN pip install pandas==2.0.3
 RUN pip install tensorboardX==2.0
-RUN pip install scipy>=1.4.1
+RUN pip install scipy==1.10.1
 RUN pip install hyperopt==0.2.7
 RUN pip install numpy==1.24.4
 RUN pip install protobuf==3.20.3
