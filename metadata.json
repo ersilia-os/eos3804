@@ -38,6 +38,8 @@
     "License": "None",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2023-08-23",
+    "Last Packaging Date": "2025-08-27",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3804.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3804",
     "Docker Architecture": [
@@ -46,11 +48,11 @@
     ],
     "Model Size": 30.0,
     "Environment Size": 3953.0,
-    "Image Size": 3923.73,
-    "Computational Performance 1": 30.94,
-    "Computational Performance 2": 21.37,
-    "Computational Performance 3": 27.16,
-    "Computational Performance 4": 129.67,
-    "Computational Performance 5": 590.77,
+    "Image Size": 3940.62,
+    "Computational Performance 1": 31.48,
+    "Computational Performance 2": 21.9,
+    "Computational Performance 3": 27.71,
+    "Computational Performance 4": 128.56,
+    "Computational Performance 5": 583.72,
     "Docker Pack Method": "FastAPI"
 }
