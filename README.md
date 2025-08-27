@@ -41,7 +41,7 @@ Below are the **Output Columns** of the model:
 
 ### Resource Consumption
 - **Model Size (Mb):** `30`
-- **Environment Size (Mb):** `3952`
+- **Environment Size (Mb):** `3953`
 - **Image Size (Mb):** `3923.73`
 
 **Computational Performance (seconds):**
