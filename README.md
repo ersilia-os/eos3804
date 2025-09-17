@@ -2,7 +2,7 @@
 
 This model is a Chemprop neural network trained with a growth inhibition dataset. Authors screened ~7,500 molecules for those that inhibited the growth of A. baumannii in vitro. They discovered abaucin, an antibacterial compound with narrow-spectrum activity against A. baumannii.
 
-This model was incorporated on 2023-08-23.Last packaged on 2025-08-27.
+This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `47`
 - **Environment Size (Mb):** `3953`
-- **Image Size (Mb):** `3940.62`
+- **Image Size (Mb):** `3940.76`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.48`
-- 100 inputs: `27.71`
-- 10000 inputs: `583.72`
+- 10 inputs: `31.58`
+- 100 inputs: `27.77`
+- 10000 inputs: `583.82`
 
 ### References
 - **Source Code**: [https://github.com/GaryLiu152/chemprop_abaucin](https://github.com/GaryLiu152/chemprop_abaucin)
