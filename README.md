@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/GaryLiu152/chemprop_abaucin](https://github.com/GaryLiu152/chemprop_abaucin)
-- **Publication**: [https://www.nature.com/articles/s41589-023-01349-8](https://www.nature.com/articles/s41589-023-01349-8)
+- **Publication**: [https://doi.org/10.1038/s41589-023-01349-8](https://doi.org/10.1038/s41589-023-01349-8)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2023`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
