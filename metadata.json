@@ -22,7 +22,7 @@
     "Output Consistency": "Fixed",
     "Interpretation": "Probability of growth inhibition of the bacteria A. Baumannii (threshold > 80%)",
     "Tag": [
-        "A.baumannii",
+        "ESKAPE",
         "Antimicrobial activity"
     ],
     "Biomedical Area": [
