@@ -1,6 +1,6 @@
 # Inhibition of Acinetobacter baumannii growth
 
-This model is a Chemprop neural network trained with a growth inhibition dataset. Authors screened ~7,500 molecules for those that inhibited the growth of A. baumannii in vitro. They discovered abaucin, an antibacterial compound with narrow-spectrum activity against A. baumannii.
+Scores compounds for growth inhibition of Acinetobacter baumannii, a Gram-negative pathogen at the top of the WHO priority list and one where the existing antibiotic arsenal is thinnest. Liu and colleagues screened roughly 7,500 molecules against the organism, trained a graph neural network on the outcome, and used it to rank a much larger set. The exercise yielded abaucin, a narrow-spectrum candidate active against A. baumannii while sparing other species, subsequently confirmed in a mouse wound model.
 
 This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of growth inhibition of the bacteria A. Baumannii (threshold > 80%)
+- **Interpretation:** Probability that a compound inhibits growth of Acinetobacter baumannii.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
