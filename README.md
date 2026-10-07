@@ -1,6 +1,6 @@
 # Inhibition of Acinetobacter baumannii growth
 
-Scores compounds for growth inhibition of Acinetobacter baumannii, a Gram-negative pathogen at the top of the WHO priority list and one where the existing antibiotic arsenal is thinnest. Liu and colleagues screened roughly 7,500 molecules against the organism, trained a graph neural network on the outcome, and used it to rank a much larger set. The exercise yielded abaucin, a narrow-spectrum candidate active against A. baumannii while sparing other species, subsequently confirmed in a mouse wound model.
+Scores compounds for growth inhibition of Acinetobacter baumannii, a nosocomial Gram-negative pathogen that commonly displays multidrug and increasingly pan-drug resistance. Liu and colleagues screened 7,684 off-patent drugs and synthetic chemicals at 50 uM, trained an ensemble of directed message-passing neural networks on the result and used it to rank the Drug Repurposing Hub. That search produced abaucin, which perturbs lipoprotein trafficking through LolE, spares other species and controlled an A. baumannii infection in a mouse wound model.
 
 This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that a compound inhibits growth of Acinetobacter baumannii.
+- **Interpretation:** Probability of Acinetobacter baumannii growth inhibition, with training actives set near 20% inhibition at 50 uM.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
