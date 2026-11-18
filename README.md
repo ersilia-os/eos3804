@@ -2,7 +2,8 @@
 
 Scores compounds for growth inhibition of Acinetobacter baumannii, a nosocomial Gram-negative pathogen that commonly displays multidrug and increasingly pan-drug resistance. Liu and colleagues screened 7,684 off-patent drugs and synthetic chemicals at 50 uM, trained an ensemble of directed message-passing neural networks on the result and used it to rank the Drug Repurposing Hub. That search produced abaucin, which perturbs lipoprotein trafficking through LolE, spares other species and controlled an A. baumannii infection in a mouse wound model.
 
-This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
+This model was incorporated on 2023-08-23.
+Last packaged on 2025-09-17.
 
 ## Information
 ### Identifiers
@@ -14,7 +15,7 @@ This model was incorporated on 2023-08-23.Last packaged on 2025-09-17.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `Antimicrobial resistance`
 - **Target Organism:** `Acinetobacter baumannii`
-- **Tags:** `A.baumannii`, `Antimicrobial activity`
+- **Tags:** `ESKAPE`, `Antimicrobial activity`
 
 ### Input
 - **Input:** `Compound`
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3804](https://hub.docker.com/r/ersiliaos/eos3804)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3804.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3804.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3804_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3804_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `47`
